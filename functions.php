@@ -15,3 +15,9 @@ function buster_get_stylesheet() {
 
 add_action('wp_enqueue_scripts', 'buster_get_stylesheet');
 
+function register_custom_menu() {
+    register_nav_menu('custom-menu', __('Custom Menu'));
+}
+
+add_action('init', 'register_custom_menu');
+
