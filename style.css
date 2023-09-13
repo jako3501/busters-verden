@@ -7,7 +7,9 @@ Bold: 700
 
 :root {
     --color-blue: #1B2B3B;
+    --color-blue-fade: #1b2b3bb3;
     --color-orange: #FE8E22;
+    --color-white: #F5F5F5;
 }
 
 body {
@@ -17,16 +19,24 @@ body {
 
 }
 
+.customize-support {
+    height: 100px;
+}
+
 /* Customize the background color of the navbar */
 svg {
     max-width: 250px;
     /* Adjust the maximum width as needed */
     height: auto;
     position: absolute;
-    padding: 12px 20px;
+    padding: 18px 20px;
+    z-index: 5;
 
 }
 
+.navbar {
+
+}
 
 .menu {
     background-color: var(--color-blue);
@@ -51,7 +61,10 @@ svg {
     place-items: center;
     padding: 20px;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    z-index: 5;
+    text-shadow: #000000d3 2px 2px 2px;
 
 
 
@@ -60,10 +73,46 @@ svg {
 /* Style the menu links */
 .menu li a {
     text-decoration: none;
-    color: #fff;
+    color: var(--color-white);
+    
+    
 }
 
 /* Change link color on hover */
 .menu li a:hover {
-    color: #FF5733;
+    color: var(--color-orange);
+}
+
+.hero-container {
+    position: relative;
+    transform: translateY(-13%);
+}
+
+.headline {
+    background-color: var(--color-blue-fade);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.headline h1 {
+    color: var(--color-orange);
+    font-weight: 600;
+    font-size: 7rem;
+    letter-spacing: 8px;
+}
+
+.slider {
+    background-color: var(--color-blue);
+}
+
+.container2 {
+    height: 140px;
+    background-color: var(--color-orange);
+    transform: translateY(-75%);   
 }

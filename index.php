@@ -1,9 +1,23 @@
 <?php get_header(); ?>
 
+<div class="hero-container">
+    <div class="headline">
+        <h1>BUSTERS VERDEN</h1>
+    </div>
+    <div class="slider">
+        <?php echo do_shortcode('[metaslider id="32"]'); ?>
+    </div>
+</div>
 
-<?php while(have_posts()): the_post() ?>
+<div class="container2">
+    
+</div>
 
-<?php the_content() ?>
+
+<?php while (have_posts()):
+    the_post() ?>
+
+    <?php the_content() ?>
 
 <?php endwhile; ?>
 
