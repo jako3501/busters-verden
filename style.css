@@ -86,6 +86,7 @@ svg {
 .hero-container {
     position: relative;
     transform: translateY(-13%);
+    height: 880px;
 }
 
 .headline {
@@ -95,6 +96,7 @@ svg {
     position: absolute;
     z-index: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -105,6 +107,28 @@ svg {
     font-weight: 600;
     font-size: 7rem;
     letter-spacing: 8px;
+    margin-top: 150px;
+}
+
+.headline-button-box {
+    padding-top: 100px;
+}
+
+button {
+    background: none;
+    border: 5px solid var(--color-orange);
+    padding: 10px 30px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--color-white);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--color-orange);
+    color: var(--color-blue);
+    scale: 1.1;
 }
 
 .slider {
@@ -112,7 +136,54 @@ svg {
 }
 
 .container2 {
-    height: 140px;
     background-color: var(--color-orange);
-    transform: translateY(-75%);   
+    transform: translateY(-190%);   
+    z-index: -1;
+}
+
+.container2 h2 {
+    font-weight: 400;
+    color: var(--color-white);
+    padding: 20px 20px;
+    margin: 20px;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.container2 span {
+    font-weight: 600;
+}
+
+.container3 {
+    background-color: var(--color-blue);
+    transform: translateY(-51.1%); 
+}
+
+.container3 h2{
+    color: var(--color-orange);
+    font-weight: 600;
+    font-size: 5rem;
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+
+.container3 p{
+    padding: 0 15% 80px 15%;
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 1.8rem;
+    z-index: -2;
+
+}
+
+.container4 {
+    background-color: var(--color-orange);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 svg {
+    scale: 500%;
 }
