@@ -274,3 +274,46 @@ button:hover {
 .wpcf7-spinner {
     display: none;
 }
+
+
+
+
+
+
+
+
+footer {
+    background-color: var(--color-blue);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.instagram-icon, .facebook-icon {
+    padding: 0 30px;
+    width: 50px;
+}
+
+.instagram-icon svg, .facebook-icon svg {
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    scale: 600%;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
