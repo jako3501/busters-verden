@@ -143,6 +143,7 @@
         </div>
     </div>
 
+    <?php echo do_shortcode('[[contact-form-7 id="fc85331" title="Review"]"]') ?>
 
 <?php endwhile; ?>
 
