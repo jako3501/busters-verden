@@ -88,6 +88,12 @@ body {
     height: 911px;
 }
 
+.hero-container img {
+    width: 100%;
+    height: 911px;
+    object-fit: cover;
+}
+
 .headline {
     background-color: var(--color-blue-fade);
     height: 100%;
@@ -276,6 +282,29 @@ button:hover {
 .wpcf7-spinner {
     display: none;
 }
+
+.pa-scenen {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pa-scenen p {
+    color: var(--color-white);
+    font-size: 2rem;
+}
+
+.pa-scenen h3 {
+    color: var(--color-orange);
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.pa-scenen h4 {
+    color: var(--color-orange);
+    margin-top: 60px;
+    font-size: 2.5rem;
+}
+
 
 
 
