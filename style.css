@@ -16,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--color-blue);
 
 }
 
@@ -24,7 +25,7 @@ body {
 }
 
 /* Customize the background color of the navbar */
-svg {
+.skarntyden, .ticketbox-svg {
     max-width: 250px;
     /* Adjust the maximum width as needed */
     height: auto;
@@ -84,7 +85,7 @@ svg {
 .hero-container {
     position: relative;
     transform: translateY(-13%);
-    height: 880px;
+    height: 911px;
 }
 
 .headline {
@@ -135,14 +136,14 @@ button:hover {
 
 .container2 {
     background-color: var(--color-orange);
-    transform: translateY(-190%);
+    transform: translateY(-186%);
     z-index: -1;
 }
 
 .container2 h2 {
     font-weight: 400;
     color: var(--color-white);
-    padding: 20px 20px;
+    padding: 22px 20px;
     margin: 20px;
     font-size: 2.8rem;
     text-align: center;
@@ -154,7 +155,7 @@ button:hover {
 
 .container3 {
     background-color: var(--color-blue);
-    transform: translateY(-51.1%);
+    transform: translateY(-53%);
 }
 
 .container3 h2 {
@@ -181,7 +182,8 @@ button:hover {
     justify-content: center;
     align-items: center;
     z-index: -1;
-    transform: translateY(-24%);
+    overflow: hidden;
+    transform: translateY(-24.3%);
 }
 
 .container4 .ticket-box {
@@ -198,7 +200,7 @@ button:hover {
     margin: 20%;
 }
 
-.container4 .ticket-box svg {
+.container4 .ticketbox-svg {
     scale: 500%;
     z-index: 1;
 }
@@ -284,11 +286,20 @@ button:hover {
 
 footer {
     background-color: var(--color-blue);
-    height: 100px;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0;
+}
+
+footer p {
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+    padding-top: 25px;
 }
 
 .footer-container {
@@ -300,7 +311,6 @@ footer {
 
 .instagram-icon, .facebook-icon {
     padding: 0 30px;
-    width: 50px;
 }
 
 .instagram-icon svg, .facebook-icon svg {
