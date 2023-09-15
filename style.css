@@ -318,8 +318,9 @@ footer p {
     margin: 0 auto;
     scale: 600%;
     width: 50px;
+    max-width: 100%;
+    cursor: pointer;
 }
-
 
 
 
