@@ -24,7 +24,24 @@
         </h2>
     </div>
 
+    <div class="velkomst">
+        <h3 class="velkomst">
+            <?php the_field('velkomst') ?>
+        </h3>
+        <p>
+            <?php the_field('velkomst2') ?>
+        </p>
+        <p>
+            <?php the_field('velkomst3') ?>
+        </p>
+        <p>
+            <?php the_field('velkomst4') ?>
+        </p>
+    </div>
+
     <div class="pa-scenen">
+
+
         <div class="skuespillere-box">
             <h3>PÅ SCENEN</h3>
             <?php
