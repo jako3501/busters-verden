@@ -239,6 +239,14 @@ button:hover {
     text-align: left;
 }
 
+.reviews h3 {
+    color: var(--color-orange);
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    margin: 150px 0 0 0;
+}
+
 .wpcf7-form {
     padding-top: 30px;
 }
@@ -261,6 +269,7 @@ button:hover {
     justify-content: center;
     place-items: center;
     flex-direction: column;
+    color: var(--color-white);
 }
 
 .wpcf7 input[type="submit"] {
