@@ -178,7 +178,6 @@ button:hover {
     font-weight: 400;
     font-size: 1.8rem;
     z-index: -2;
-
 }
 
 .container4 {
@@ -445,30 +444,78 @@ footer p {
 
 /* Media Queries */
 
-/* For screens smaller than 768px */
-@media (max-width: 768px) {
-    .menu {
-        padding: 0 20px; /* Adjust padding for smaller screens */
+
+@media (max-width: 850px) {
+    .headline h1 {
+        font-size: 5rem;
     }
-    
-    .menu li {
-        font-size: 1.5rem; /* Reduce font size for smaller screens */
+
+    .container2 h2 {
+        font-size: 2.3rem;
     }
-    
-    /* Add more responsive styles as needed */
+
 }
 
-/* For screens smaller than 576px */
-@media (max-width: 576px) {
-    .menu {
-        padding: 0 10px; /* Further reduce padding for smaller screens */
+@media (max-width: 750px) {
+    .container2 h2 {
+        font-size: 2.1rem;
+    }
+
+    .container3 h2 {
+        font-size: 4rem;
     }
     
-    .menu li {
-        font-size: 1.2rem; /* Further reduce font size for smaller screens */
+    .container3 p {
+        font-size: 1.5rem;
+        padding: 0 10% 80px 10%;
+    }
+}
+
+@media (max-width: 630px) {
+
+    .container3 h2 {
+        font-size: 4rem;
+        padding: 20px 0 20px 0;
     }
     
-    /* Add more responsive styles as needed */
+    .container3 p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 571px) {
+
+    .headline h1 {
+        font-size: 3.5rem;
+        letter-spacing: 4px;
+    }
+
+    .container2 h2 {
+        font-size: 1.6rem;
+    }
+    
+    .container3 p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 436px) {
+
+    .headline h1 {
+        font-size: 3rem;
+    }
+
+    .container2 h2 {
+        font-size: 1.5rem;
+    }
+
+    .container3 h2 {
+        font-size: 3.5rem;
+    }
+    
+    .container3 p {
+        font-size: 1.3rem;
+    }
 }
 
 
