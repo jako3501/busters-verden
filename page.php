@@ -145,7 +145,16 @@
 
     <div class="reviews">
         <h3>Reviews</h3>
-    <?php echo do_shortcode('[[contact-form-7 id="fc85331" title="Review"]"]') ?>
+        <?php echo do_shortcode('[contact-form-7 id="fc85331" title="Review"]') ?>
+    </div>
+
+
+    <div class="sponsors">
+
+    <img src="<?php echo get_template_directory_uri()?>/img/EMS.png" alt="">
+    <img src="<?php echo get_template_directory_uri()?>/img/Lumaprint.png" alt="">
+    <img src="<?php echo get_template_directory_uri()?>/img/Vestbyg.png" alt="">
+
     </div>
 
 <?php endwhile; ?>

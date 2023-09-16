@@ -12,7 +12,7 @@
     <div class="hero-container">
         <div class="headline">
             <h1>BUSTERS VERDEN</h1>
-            <div class="headline-button-box"></div><button>Køb billet her</button>
+            <a href="<?php the_field('link-billetsalg') ?>"><div class="headline-button-box"></div><button>Køb billet her</button></a>
         </div>
         <div class="slider">
         <?php echo do_shortcode('[metaslider id="32"]'); ?>        </div>
@@ -44,7 +44,7 @@
                 </p>
                 <!-- <p>test</p>
                 <input type="text"> -->
-                <?php echo do_shortcode('[contact-form-7 id="65730d6" title="Contact form 1"]') ?>
+                <?php echo do_shortcode('[contact-form-7 id="1a50c5a" title="Konkurrence signup"]') ?>
             </div>
 
             <svg class="ticketbox-svg"xmlns="http://www.w3.org/2000/svg" width="1439" height="795" viewBox="0 0 1439 795">

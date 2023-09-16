@@ -339,7 +339,16 @@ button:hover {
     padding: 0 25% 50px 25%;
 }
 
+.sponsors {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.sponsors img {
+    padding: 50px;
+}
 
 
 
@@ -369,6 +378,18 @@ footer p {
     align-items: center;
     flex-direction: row;
 }
+
+.some img {
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    margin: 10px;
+}
+
+.some img:hover {
+    scale: 1.1;
+}
+
+
 
 .instagram-icon, .facebook-icon {
     padding: 0 30px;
