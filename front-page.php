@@ -44,7 +44,7 @@
                 </p>
                 <!-- <p>test</p>
                 <input type="text"> -->
-                <?php echo do_shortcode('[contact-form-7 id="1a50c5a" title="Konkurrence signup"]') ?>
+                <?php echo do_shortcode('[contact-form-7 id="65730d6" title="Contact form 1"]') ?>
             </div>
 
             <svg class="ticketbox-svg"xmlns="http://www.w3.org/2000/svg" width="1439" height="795" viewBox="0 0 1439 795">

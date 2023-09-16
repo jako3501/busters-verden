@@ -374,6 +374,33 @@ footer p {
 
 
 
+/* Media Queries */
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    .menu {
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+    
+    .menu li {
+        font-size: 1.5rem; /* Reduce font size for smaller screens */
+    }
+    
+    /* Add more responsive styles as needed */
+}
+
+/* For screens smaller than 576px */
+@media (max-width: 576px) {
+    .menu {
+        padding: 0 10px; /* Further reduce padding for smaller screens */
+    }
+    
+    .menu li {
+        font-size: 1.2rem; /* Further reduce font size for smaller screens */
+    }
+    
+    /* Add more responsive styles as needed */
+}
 
 
 
