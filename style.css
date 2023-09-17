@@ -341,12 +341,14 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: block;
+    
+    /* display: block; */
 }
 
 .sponsors img {
     padding: 50px;
     max-width: 100%;
+    scale: 0.80;
 }
 
 
@@ -471,6 +473,10 @@ footer p {
 
     .container4 .ticket-box-text p {
         font-size: 1.8rem;
+    }
+
+    .sponsors {
+        flex-wrap: wrap;
     }
 }
 
