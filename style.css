@@ -293,6 +293,7 @@ button:hover {
 .pa-scenen {
     display: flex;
     justify-content: space-evenly;
+  
 }
 
 .pa-scenen p {
@@ -309,7 +310,7 @@ button:hover {
 .pa-scenen h4 {
     color: var(--color-orange);
     margin-top: 60px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .velkomst {
@@ -340,10 +341,12 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: block;
 }
 
 .sponsors img {
     padding: 50px;
+    max-width: 100%;
 }
 
 
@@ -629,6 +632,49 @@ footer p {
     .container3 p {
         font-size: 1.5rem;
     }
+    input[type="email"] {
+        background: none;
+        border: solid 4px var(--color-orange);
+        color: var(--color-white);
+        height: 25px;
+        padding: 5px;
+        margin-top: 2px;
+        width: 140px;
+        font-size: 12px;
+        font-weight: 600;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"] {
+    background: none;
+    border: solid 4px var(--color-orange);
+    color: var(--color-white);
+    height: 45px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 120%;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+
+
+
+}
+
+.wpcf7 textarea {
+    width: 100%;
+    justify-content: center;
+    place-items: center;
+}
+
+
+.wpcf7-form {
+    flex-direction: column;
+    max-width: 100%;
+    
+   
+}
+
 }
 
 @media (max-width: 436px) {
@@ -667,6 +713,12 @@ footer p {
         font-size: 1.4rem;
     }
 
+    .pa-scenen {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
@@ -679,46 +731,3 @@ footer p {
 
 
 
-
-.wpcf7-form {
-    padding-top: 30px;
-}
-
-.wpcf7 input[type="text"],
-.wpcf7 input[type="email"] {
-    background: none;
-    border: solid 4px var(--color-orange);
-    color: var(--color-white);
-    height: 45px;
-    padding: 10px;
-    margin-top: 10px;
-    width: 530px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.wpcf7 p {
-    display: flex;
-    justify-content: center;
-    place-items: center;
-    flex-direction: column;
-    color: var(--color-white);
-}
-
-.wpcf7 input[type="submit"] {
-    border: solid 4px var(--color-orange);
-    color: var(--color-white);
-    background: none;
-    margin-top: 10px;
-    padding: 5px 30px;
-    font-size: 20px;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out;
-}
-
-.wpcf7 input[type="submit"]:hover {
-    background-color: var(--color-orange);
-    color: var(--color-blue);
-    scale: 1.1;
-
-}
